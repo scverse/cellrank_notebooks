@@ -7,7 +7,7 @@ default_stages:
 minimum_pre_commit_version: 3.0.0
 repos:
 - repo: https://github.com/nbQA-dev/nbQA
-  rev: 1.9.1
+  rev: 1.10.0
   hooks:
   - id: nbqa-ruff
     args: [--fix, --exit-non-zero-on-fix, --extend-ignore=E402]
